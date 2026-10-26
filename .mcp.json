@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN}",
+        "GITHUB_REPOSITORY": "gurpreetchawla26/routine-stacker"
+      }
+    },
+    "jira": {
+      "command": "npx",
+      "args": ["-y", "@aashari/mcp-server-atlassian-jira"],
+      "env": {
+        "ATLASSIAN_SITE_NAME": "epam-team-mwciyt2a",
+        "ATLASSIAN_USER_EMAIL": "${JIRA_USERNAME}",
+        "ATLASSIAN_API_TOKEN": "${JIRA_API_TOKEN}"
+      }
+    },
+    "claude-session-manager": {
+      "command": "uvx",
+      "args": ["claude-session-manager-mcp"]
+    }
+  }
+}

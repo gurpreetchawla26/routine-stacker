@@ -1,0 +1,17 @@
+# Paths excluded from Claude's context to save tokens and avoid cache misses.
+# Note: Claude Code does not read this file. To block Claude from reading these
+# paths, the matching deny rules are in .claude/settings.json under "permissions".
+# This file is kept so other tools and teammates share the same list.
+
+# Runtime cache and logs
+.claude/.cache/
+.cache/
+.claude/hooks/logs/
+*.log
+
+# Build outputs and dependencies
+bin/
+obj/
+node_modules/
+__pycache__/
+*.pyc

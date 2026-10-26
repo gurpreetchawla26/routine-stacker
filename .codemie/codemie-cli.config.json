@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "activeProfile": "Capstone",
+  "profiles": {
+    "Capstone": {
+      "provider": "ai-run-sso",
+      "apiKey": "sso-provided",
+      "baseUrl": "https://codemie.lab.epam.com/code-assistant-api",
+      "model": "claude-sonnet-5-5",
+      "haikuModel": "claude-haiku-5-5",
+      "sonnetModel": "claude-sonnet-5-5",
+      "opusModel": "claude-opus-5-5",
+      "name": "Capstone"
+    }
+  },
+  "workspace": {
+    "codeMieUrl": "https://codemie.lab.epam.com",
+    "codeMieProject": "gurpreet_chawla@epam.com"
+  }
+}

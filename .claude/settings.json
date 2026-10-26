@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./.claude/.cache/**)",
+      "Read(./.claude/hooks/logs/**)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|PowerShell|Write|mcp__github__.*|mcp__jira__.*|mcp__.*confluence.*|mcp__.*migrat.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"$CLAUDE_PROJECT_DIR/.claude/hooks/scripts/hitl_gate.py\"",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

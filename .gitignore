@@ -1,0 +1,16 @@
+# Local cache and runtime data
+.claude/.cache/
+.codemie/cache/
+.claude/hooks/logs/
+
+# Local setting overrides (personal, not shared)
+.claude/settings.local.json
+.mcp.local.json
+
+# Python and build outputs
+__pycache__/
+*.pyc
+bin/
+obj/
+node_modules/
+*.log
