@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "repository": "gurpreetchawla26/routine-stacker",
+  "active_phase": "requirements",
+  "phases": [
+    {
+      "id": "requirements",
+      "agent": "Requirements Agent",
+      "artifacts": ["docs/requirements.md"],
+      "status": "pending"
+    },
+    {
+      "id": "architecture",
+      "agent": "Architecture Agent",
+      "artifacts": ["docs/architecture.md"],
+      "status": "pending"
+    },
+    {
+      "id": "implementation-planner",
+      "agent": "Implementation Planner",
+      "artifacts": ["docs/impl-plan.md"],
+      "status": "pending"
+    },
+    {
+      "id": "implementation",
+      "agent": "Implementation Agent",
+      "artifacts": ["src/"],
+      "status": "pending"
+    },
+    {
+      "id": "verification",
+      "agent": "Verification Agent",
+      "artifacts": ["tests/"],
+      "status": "pending"
+    },
+    {
+      "id": "pr",
+      "agent": "PR & Confluence Agent",
+      "artifacts": ["GitHub PR", "Confluence page"],
+      "status": "pending"
+    }
+  ],
+  "history": [],
+  "feedback": []
+}

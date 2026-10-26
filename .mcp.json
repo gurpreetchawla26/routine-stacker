@@ -19,7 +19,7 @@
     },
     "claude-session-manager": {
       "command": "uvx",
-      "args": ["claude-session-manager-mcp"]
+      "args": ["--from", "claude-session-manager-mcp", "--with", "mcp<2", "claude-session-manager-mcp"]
     }
   }
 }
