@@ -1,12 +1,12 @@
 ---
 name: 05-implementation-driver
-description: "Implement Spring Boot backend, thread-safe in-memory repository, and vanilla JavaScript/CSS static frontend for Zenith Habit Tracker, documenting progress in src/docs/implementation.md."
+description: "Implement Spring Boot backend, thread-safe in-memory repository, and vanilla JavaScript/CSS static frontend for Routine Stacker, documenting progress in src/docs/implementation.md."
 user-invocable: true
 ---
 
 # Implementation Driver Skill (Phase 5)
 
-Use this skill to guide and execute the code implementation of **Zenith Habit Tracker** based strictly on the approved implementation plan.
+Use this skill to guide and execute the code implementation of **Routine Stacker** based strictly on the approved implementation plan.
 
 ## Prerequisites
 - Approved `src/docs/requirements.md`

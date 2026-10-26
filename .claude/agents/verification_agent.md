@@ -1,6 +1,6 @@
 ---
-name: zenith-verification
-description: "Use when verifying Zenith acceptance criteria, backend tests, and static frontend behavior with reproducible evidence in SDLC phase 6."
+name: routine-stacker-verification
+description: "Use when verifying Routine Stacker acceptance criteria, backend tests, and static frontend behavior with reproducible evidence in SDLC phase 6."
 tools: Read, Grep, Glob, Edit, Write, Bash
 ---
 

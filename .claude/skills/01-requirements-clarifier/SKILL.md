@@ -1,12 +1,12 @@
 ---
 name: 01-requirements-clarifier
-description: "Elicit, structure, and clarify requirements for Zenith Habit Tracker. Generates scope, assumptions, functional/non-functional requirements, and Given/When/Then acceptance criteria in src/docs/requirements.md."
+description: "Elicit, structure, and clarify requirements for Routine Stacker. Generates scope, assumptions, functional/non-functional requirements, and Given/When/Then acceptance criteria in src/docs/requirements.md."
 user-invocable: true
 ---
 
 # Requirements Clarifier Skill (Phase 1)
 
-Use this skill to guide the requirements discovery, clarification, and formalization process for the **Zenith Habit Tracker** project.
+Use this skill to guide the requirements discovery, clarification, and formalization process for the **Routine Stacker** project.
 
 ## Output Target
 - Deliverable: `src/docs/requirements.md`

@@ -1,12 +1,12 @@
 ---
 name: 06-verification-writer
-description: "Verify Zenith Habit Tracker implementation against acceptance criteria, execute test suites, and produce reproducible test evidence in src/docs/verification.md."
+description: "Verify Routine Stacker implementation against acceptance criteria, execute test suites, and produce reproducible test evidence in src/docs/verification.md."
 user-invocable: true
 ---
 
 # Verification Writer Skill (Phase 6)
 
-Use this skill to execute automated tests, validate REST API endpoints, inspect frontend behavior, and compile comprehensive verification evidence for **Zenith Habit Tracker**.
+Use this skill to execute automated tests, validate REST API endpoints, inspect frontend behavior, and compile comprehensive verification evidence for **Routine Stacker**.
 
 ## Prerequisites
 - Approved `src/docs/requirements.md`

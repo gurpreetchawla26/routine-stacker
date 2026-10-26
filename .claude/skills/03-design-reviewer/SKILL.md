@@ -1,12 +1,12 @@
 ---
 name: 03-design-reviewer
-description: "Review Zenith Habit Tracker requirements and architecture for correctness, simplicity, security, and NFR compliance. Produces src/docs/design-review.md with categorized findings and disposition."
+description: "Review Routine Stacker requirements and architecture for correctness, simplicity, security, and NFR compliance. Produces src/docs/design-review.md with categorized findings and disposition."
 user-invocable: true
 ---
 
 # Design Reviewer Skill (Phase 3)
 
-Use this skill to perform an independent, rigorous design review evaluating requirements coverage, architectural soundness, security, and testability for **Zenith Habit Tracker**.
+Use this skill to perform an independent, rigorous design review evaluating requirements coverage, architectural soundness, security, and testability for **Routine Stacker**.
 
 ## Prerequisites
 - Approved `src/docs/requirements.md`

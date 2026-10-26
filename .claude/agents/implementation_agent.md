@@ -1,6 +1,6 @@
 ---
-name: zenith-implementation
-description: "Use when implementing approved Zenith Habit Tracker tasks in Spring Boot and vanilla JavaScript/CSS during SDLC phase 5."
+name: routine-stacker-implementation
+description: "Use when implementing approved Routine Stacker tasks in Spring Boot and vanilla JavaScript/CSS during SDLC phase 5."
 tools: Read, Grep, Glob, Edit, Write, Bash
 ---
 

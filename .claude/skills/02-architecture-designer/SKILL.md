@@ -1,12 +1,12 @@
 ---
 name: 02-architecture-designer
-description: "Architect Spring Boot REST API, thread-safe in-memory storage, and static vanilla JS/CSS frontend for Zenith Habit Tracker. Generates src/docs/architecture.md with component models and Mermaid diagrams."
+description: "Architect Spring Boot REST API, thread-safe in-memory storage, and static vanilla JS/CSS frontend for Routine Stacker. Generates src/docs/architecture.md with component models and Mermaid diagrams."
 user-invocable: true
 ---
 
 # Architecture Designer Skill (Phase 2)
 
-Use this skill to design the technical architecture, data model, API specifications, and system interactions for **Zenith Habit Tracker**.
+Use this skill to design the technical architecture, data model, API specifications, and system interactions for **Routine Stacker**.
 
 ## Prerequisites
 - Approved `src/docs/requirements.md`
