@@ -31,6 +31,8 @@ ARTIFACT_RULES = [
     ("requirements", re.compile(r"^docs/requirements\.md$")),
     ("architecture", re.compile(r"^docs/architecture\.md$")),
     ("implementation-planner", re.compile(r"^docs/impl-plan\.md$")),
+    ("code-review", re.compile(r"^src/docs/code-review\.md$")),
+("pr", re.compile(r"^src/docs/pr\.md$")),
     ("implementation", re.compile(r"^src/.+")),
     ("verification", re.compile(r"^tests/.+")),
 ]

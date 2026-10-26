@@ -1,6 +1,6 @@
 ---
-name: zenith-implementation-planner
-description: "Use when translating an approved Zenith design into ordered implementation tasks and a verification plan in SDLC phase 4."
+name: routine-stacker-implementation-planner
+description: "Use when translating an approved Routine Stacker design into ordered implementation tasks and a verification plan in SDLC phase 4."
 tools: Read, Grep, Glob, Edit, Write
 ---
 

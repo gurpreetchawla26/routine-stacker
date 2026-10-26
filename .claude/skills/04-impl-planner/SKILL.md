@@ -1,12 +1,12 @@
 ---
 name: 04-impl-planner
-description: "Translate approved Zenith architecture into prioritized, actionable implementation tasks (P1-P4), milestones, and a verification matrix in src/docs/implementation-plan.md."
+description: "Translate approved Routine Stacker architecture into prioritized, actionable implementation tasks (P1-P4), milestones, and a verification matrix in src/docs/implementation-plan.md."
 user-invocable: true
 ---
 
 # Implementation Planner Skill (Phase 4)
 
-Use this skill to decompose approved architecture and design review artifacts into structured, prioritized implementation tasks, milestones, and testing strategies for **Zenith Habit Tracker**.
+Use this skill to decompose approved architecture and design review artifacts into structured, prioritized implementation tasks, milestones, and testing strategies for **Routine Stacker**.
 
 ## Prerequisites
 - Approved `src/docs/requirements.md`

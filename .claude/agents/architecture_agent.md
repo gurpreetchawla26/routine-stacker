@@ -1,6 +1,6 @@
 ---
-name: zenith-architecture
-description: "Use when designing the Spring Boot, in-memory repository, REST API, and static frontend architecture for Zenith SDLC phase 2."
+name: routine-stacker-architecture
+description: "Use when designing the Spring Boot, in-memory repository, REST API, and static frontend architecture for Routine Stacker SDLC phase 2."
 tools: Read, Grep, Glob, Edit, Write
 ---
 

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Routine Stacker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+    <h1>Routine Stacker</h1>
+    <p class="note">Habits are stacked onto your routines. Data is kept in memory only and resets when the application restarts.</p>
+</header>
+
+<main>
+    <section aria-labelledby="create-heading">
+        <h2 id="create-heading">Add a habit</h2>
+        <form id="create-form" class="create-form">
+            <div class="field">
+                <label for="habit-name">Habit name</label>
+                <input id="habit-name" name="name" type="text" required maxlength="100" autocomplete="off">
+            </div>
+            <div class="field">
+                <label for="habit-anchor">Anchor routine</label>
+                <input id="habit-anchor" name="anchorRoutine" type="text" required maxlength="150" autocomplete="off">
+            </div>
+            <div class="field">
+                <label for="habit-frequency">Frequency</label>
+                <select id="habit-frequency" name="frequency">
+                    <option value="DAILY">Daily</option>
+                    <option value="WEEKLY">Weekly</option>
+                </select>
+            </div>
+            <p id="form-error" class="error" role="alert"></p>
+            <button type="submit" class="primary">Add habit</button>
+        </form>
+    </section>
+
+    <section aria-labelledby="stack-heading">
+        <h2 id="stack-heading">Your stack</h2>
+        <p id="status" class="sr-only" role="status" aria-live="polite"></p>
+        <p id="error" class="error" role="alert"></p>
+        <p id="loading" hidden>Loading habits...</p>
+        <p id="empty" hidden>No habits yet. Add one above.</p>
+        <ul id="habit-list" class="habit-list" hidden></ul>
+    </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

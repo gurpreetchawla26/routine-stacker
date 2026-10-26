@@ -1,12 +1,12 @@
 ---
 name: 08-pr-writer
-description: "Prepare and synthesize the final Pull Request documentation, summary, release notes, and reviewer checklist for Zenith Habit Tracker in src/docs/pr.md."
+description: "Prepare and synthesize the final Pull Request documentation, summary, release notes, and reviewer checklist for Routine Stacker in src/docs/pr.md."
 user-invocable: true
 ---
 
 # Pull Request Writer Skill (Phase 8)
 
-Use this skill to compile the complete Pull Request specification, summarize changes across all previous phases, and prepare the pull request artifact for **Zenith Habit Tracker**.
+Use this skill to compile the complete Pull Request specification, summarize changes across all previous phases, and prepare the pull request artifact for **Routine Stacker**.
 
 ## Prerequisites
 - Approved `src/docs/requirements.md`
@@ -38,7 +38,7 @@ Use this skill to compile the complete Pull Request specification, summarize cha
 
 2. **Compose Comprehensive PR Description**:
    - Include standard engineering PR sections:
-     - **Title**: Clear, conventional title (e.g., `feat(zenith): complete habit tracker with Spring Boot backend and static frontend`).
+     - **Title**: Clear, conventional title (e.g., `feat(routine-stacker): complete habit-stacking app with Spring Boot backend and static frontend`).
      - **Summary / Overview**: High-level explanation of the application.
      - **Key Features Implemented**: Bullet points linked to `REQ-xxx`.
      - **Architecture & Tech Stack**: Spring Boot, in-memory `ConcurrentHashMap`, vanilla JS/CSS.

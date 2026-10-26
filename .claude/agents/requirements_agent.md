@@ -1,6 +1,6 @@
 ---
-name: zenith-requirements
-description: "Use when eliciting Zenith Habit Tracker requirements, scope, user stories, and measurable acceptance criteria in SDLC phase 1."
+name: routine-stacker-requirements
+description: "Use when eliciting Routine Stacker requirements, scope, user stories, and measurable acceptance criteria in SDLC phase 1."
 tools: Read, Grep, Glob, Edit, Write
 ---
 

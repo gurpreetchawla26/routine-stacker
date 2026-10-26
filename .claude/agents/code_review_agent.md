@@ -1,6 +1,6 @@
 ---
-name: zenith-code-review
-description: "Use when independently reviewing Zenith code changes, regression risks, security, and verification coverage in SDLC phase 7."
+name: routine-stacker-code-review
+description: "Use when independently reviewing Routine Stacker code changes, regression risks, security, and verification coverage in SDLC phase 7."
 tools: Read, Grep, Glob, Edit, Write
 ---
 

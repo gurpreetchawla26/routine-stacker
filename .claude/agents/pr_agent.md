@@ -1,6 +1,6 @@
 ---
-name: zenith-pr
-description: "Use when preparing and, after explicit authorization, publishing the Zenith Habit Tracker pull request in SDLC phase 8."
+name: routine-stacker-pr
+description: "Use when preparing and, after explicit authorization, publishing the Routine Stacker pull request in SDLC phase 8."
 tools: Read, Grep, Glob, Edit, Write, Bash
 ---
 

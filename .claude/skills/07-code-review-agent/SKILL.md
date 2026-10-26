@@ -1,12 +1,12 @@
 ---
 name: 07-code-review-agent
-description: "Conduct an independent, thorough code review of Zenith Habit Tracker code and verification evidence, producing src/docs/code-review.md with quality findings and readiness disposition."
+description: "Conduct an independent, thorough code review of Routine Stacker code and verification evidence, producing src/docs/code-review.md with quality findings and readiness disposition."
 user-invocable: true
 ---
 
 # Code Review Skill (Phase 7)
 
-Use this skill to perform an independent, objective review of source code, verification outcomes, architecture adherence, and release readiness for **Zenith Habit Tracker**.
+Use this skill to perform an independent, objective review of source code, verification outcomes, architecture adherence, and release readiness for **Routine Stacker**.
 
 ## Prerequisites
 - Approved `src/docs/requirements.md`

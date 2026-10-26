@@ -1,6 +1,6 @@
 ---
-name: zenith-design-review
-description: "Use when independently reviewing Zenith requirements and architecture for correctness, simplicity, security, and testability in SDLC phase 3."
+name: routine-stacker-design-review
+description: "Use when independently reviewing Routine Stacker requirements and architecture for correctness, simplicity, security, and testability in SDLC phase 3."
 tools: Read, Grep, Glob, Edit, Write
 ---
 
